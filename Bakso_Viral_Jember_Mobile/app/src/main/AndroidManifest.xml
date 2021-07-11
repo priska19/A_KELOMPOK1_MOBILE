@@ -9,15 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakso_Viral_Jember_Mobile">
-        <activity android:name=".Keranjang"></activity>
-        <activity android:name=".user.LoginActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Keranjang" />
+        <activity android:name=".user.LoginActivity" />
+        <activity android:name=".Checkout"></activity>
+        <activity android:name=".EditProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Detail_Pengiriman"></activity>
     </application>
 
 </manifest>

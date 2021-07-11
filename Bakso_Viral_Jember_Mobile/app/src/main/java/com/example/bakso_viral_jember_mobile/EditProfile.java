@@ -23,43 +23,43 @@ public class EditProfile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_profile);
 
-        dbHelper = new DataHelper(this);
-        text1 = findViewById(R.id.editText1);
-        text2 = findViewById(R.id.editText2);
-        text3 = findViewById(R.id.editText3);
-        text4 = findViewById(R.id.editText4);
-        text5 = findViewById(R.id.editText5);
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-        cursor = db.rawQuery("SELECT * FROM biodata WHERE nama = '" +
-                getIntent().getStringExtra("nama") + "'", null);
-        cursor.moveToFirst();
-        if (cursor.getCount() > 0) {
-            cursor.moveToPosition(0);
-            text1.setText(cursor.getString(0).toString());
-            text2.setText(cursor.getString(1).toString());
-            text3.setText(cursor.getString(2).toString());
-            text4.setText(cursor.getString(3).toString());
-            text5.setText(cursor.getString(4).toString());
-        }
-        ton1 = findViewById(R.id.button1);
+//        dbHelper = new DataHelper(this);
+//        text1 = findViewById(R.id.editText1);
+//        text2 = findViewById(R.id.editText2);
+//        text3 = findViewById(R.id.editText3);
+//        text4 = findViewById(R.id.editText4);
+//        text5 = findViewById(R.id.editText5);
+//        SQLiteDatabase db = dbHelper.getReadableDatabase();
+//        cursor = db.rawQuery("SELECT * FROM biodata WHERE nama = '" +
+//                getIntent().getStringExtra("nama") + "'", null);
+//        cursor.moveToFirst();
+//        if (cursor.getCount() > 0) {
+//            cursor.moveToPosition(0);
+//            text1.setText(cursor.getString(0).toString());
+//            text2.setText(cursor.getString(1).toString());
+//            text3.setText(cursor.getString(2).toString());
+//            text4.setText(cursor.getString(3).toString());
+//            text5.setText(cursor.getString(4).toString());
+//        }
+//        ton1 = findViewById(R.id.button1);
         ton2 = findViewById(R.id.button2);
-
-        ton1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                SQLiteDatabase db = dbHelper.getWritableDatabase();
-                db.execSQL("UPDATE biodata SET nama='" +
-                        text2.getText().toString() +"', tgl='" +
-                        text3.getText().toString() + "', jk='" +
-                        text4.getText().toString() + "', alamat='" +
-                        text5.getText().toString() + "'WHERE no='" +
-                        text1.getText().toString() + "'");
-                Toast.makeText(EditProfile.this, "Berhasil", Toast.LENGTH_SHORT).show();
-                MainActivity.ma.RefreshList();
-                finish();
-            }
-        });
-
+//
+//        ton1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View arg0) {
+//                SQLiteDatabase db = dbHelper.getWritableDatabase();
+//                db.execSQL("UPDATE biodata SET nama='" +
+//                        text2.getText().toString() +"', tgl='" +
+//                        text3.getText().toString() + "', jk='" +
+//                        text4.getText().toString() + "', alamat='" +
+//                        text5.getText().toString() + "'WHERE no='" +
+//                        text1.getText().toString() + "'");
+//                Toast.makeText(EditProfile.this, "Berhasil", Toast.LENGTH_SHORT).show();
+//                MainActivity.ma.RefreshList();
+//                finish();
+//            }
+//        });
+//
         ton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
