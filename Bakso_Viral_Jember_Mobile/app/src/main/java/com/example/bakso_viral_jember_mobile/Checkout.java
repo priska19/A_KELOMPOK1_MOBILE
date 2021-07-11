@@ -25,6 +25,7 @@ public class Checkout extends AppCompatActivity {
                 Intent i = new Intent(Checkout.this, MainActivity.class);
                 startActivity(i);
             }
+
         });
 
     }
