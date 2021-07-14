@@ -11,4 +11,10 @@
     <string name="telepon">No. Telepon</string>
     <string name="kecamatan">Kecamatan</string>
     <string name="alamatpengiriman">Alamat Pengiriman</string>
+    <string name="rp">Rp</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="harga">Harga</string>
+    <string name="menu">Menu</string>
+    <string name="jenis">Jenis</string>
 </resources>
