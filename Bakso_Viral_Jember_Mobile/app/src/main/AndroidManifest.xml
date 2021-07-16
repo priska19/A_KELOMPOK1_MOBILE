@@ -14,7 +14,7 @@
             android:label="@string/title_activity_sidebar_activity"
             android:theme="@style/Theme.Bakso_Viral_Jember_Mobile.NoActionBar"></activity>
         <activity android:name=".Keranjang" />
-        <activity android:name="listview.RecycleView">
+        <activity android:name="com.example.bakso_viral_jember_mobile.listview.RecycleView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

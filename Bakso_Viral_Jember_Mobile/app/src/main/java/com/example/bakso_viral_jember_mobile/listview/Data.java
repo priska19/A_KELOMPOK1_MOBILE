@@ -1,4 +1,4 @@
-package listview;
+package com.example.bakso_viral_jember_mobile.listview;
 
 public class Data {
     private String jenis;
