@@ -16,7 +16,7 @@ public class RiwayatPembelian extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkout);
+        setContentView(R.layout.activity_riwayatpembelian);
 
         btn3 = findViewById(R.id.tombol3);
         btn3.setOnClickListener(new View.OnClickListener() {

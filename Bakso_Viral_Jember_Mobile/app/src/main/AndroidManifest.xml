@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakso_Viral_Jember_Mobile">
+        <activity
+            android:name=".sidebar_activity"
+            android:label="@string/title_activity_sidebar_activity"
+            android:theme="@style/Theme.Bakso_Viral_Jember_Mobile.NoActionBar"></activity>
         <activity android:name=".Keranjang" />
         <activity android:name=".user.LoginActivity" />
-        <activity android:name=".Checkout"></activity>
+        <activity android:name=".Checkout" />
         <activity android:name=".EditProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Detail_Pengiriman"></activity>
+        <activity android:name=".Detail_Pengiriman" />
     </application>
 
 </manifest>

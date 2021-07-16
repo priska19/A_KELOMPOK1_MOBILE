@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">frgment</string>
+    <string name="fragment_pertama">fragment pertama</string>
+    <string name="makanan">Makanan</string>
+    <string name="minuman">Minuman</string>
+    <string name="fragment_kedua">fragment kedua</string>
+    <string name="show_message">show message</string>
+    <string name="rp">Rp</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="harga">Harga</string>
+    <string name="menu">Menu</string>
+    <string name="jenis">Jenis</string>
+</resources>
