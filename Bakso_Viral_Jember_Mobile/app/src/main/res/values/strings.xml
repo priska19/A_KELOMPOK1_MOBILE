@@ -22,33 +22,10 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-
-    <string name="todo">todo</string>
+    <string name="menu">menu</string>
     <string name="jenis">jenis</string>
     <string name="nama_produk">nama_produk</string>
-    <string name="deskripsi">deskripi</string>
+    <string name="deskripsi">deskripsi</string>
     <string name="rp">rp</string>
     <string name="harga">harga</string>
-    <string-array name="countries_array">
-        <item>Afganistan</item>
-        <item>Albania</item>
-        <item>Algeria</item>
-        <item>America</item>
-        <item>Andorra</item>
-        <item>Anguilla</item>
-        <item>Antarctica</item>
-        <item>Antingua and Barbuda</item>
-        <item>Argentina</item>
-        <item>Aruba</item>
-        <item>Australia</item>
-        <item>Austria</item>
-        <item>Azerbaijan</item>
-        <item>Bahrain</item>
-        <item>Bangladesh</item>
-        <item>Barbados</item>
-        <item>Belarus</item>
-        <item>Belgium</item>
-
-    </string-array>
-
 </resources>
