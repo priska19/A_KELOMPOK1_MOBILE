@@ -10,15 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakso_Viral_Jember_Mobile.NoActionBar">
         <activity android:name=".Dashboard">
-
-        </activity>
-        <activity android:name=".Keranjang" />
-        <activity android:name=".listview.RecycleView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Keranjang" />
+        <activity android:name=".listview.RecycleView">
+
         </activity>
         <activity android:name=".user.LoginActivity" />
         <activity android:name=".Checkout">
