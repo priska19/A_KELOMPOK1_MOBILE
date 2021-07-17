@@ -9,6 +9,6 @@
     android:paddingRight="@dimen/activity_horizontal_magin"
     android:paddingTop="@dimen/activity_vertical_magin"
 
-    tools:context=".Menu">
+    tools:context=".listview.Menu">
 
 </ListView>

@@ -29,6 +29,12 @@
     <string name="rp">rp</string>
     <string name="harga">harga</string>
     <string name="todo">todo</string>
+    <string name="bakso_viral">Bakso Viral</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="bakso_viral_jember">Bakso Viral Jember</string>
+    <string name="makanan">Makanan</string>
+    <string name="jl_manggis_39_jember">Jl. Manggis 39 - Jember</string>
+    <string name="selamat_datang">Selamat Datang</string>
     <string-array name="countries_array">
         <item>Afganistan</item>
         <item>Albania</item>

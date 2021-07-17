@@ -23,10 +23,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="DASHBOARD"
+                android:text="@string/dashboard"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Selamat Datang"/>
+            android:text="@string/selamat_datang"/>
 
     </LinearLayout>
 
@@ -50,7 +50,7 @@
 
         <LinearLayout
             android:padding="10dp"
-            android:gravity="center"
+            android:gravity="center_vertical"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:orientation="horizontal">
@@ -64,33 +64,28 @@
                     android:layout_marginLeft="5dp"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
-                    android:text="Bakso Viral Jember"
+                    android:text="@string/bakso_viral_jember"
                     android:textColor="@color/white"
                     android:textStyle="bold"
-                    android:textSize="16dp" />
-
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp" />
                 <TextView
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Jl. Manggis 39 - Jember"
+                    android:text="@string/jl_manggis_39_jember"
                     android:textStyle="bold"
                     android:textColor="@color/white"/>
-
             </LinearLayout>
-
-            <RelativeLayout
-                android:layout_width="100dp"
-                android:layout_height="80dp"/>
 
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/logo"
                 android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"/>
-
-
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp" />
 
         </LinearLayout>
 
@@ -124,7 +119,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Makanan"
+                    android:text="@string/makanan"
                     android:textSize="18dp"
                     android:textColor="@color/black"
                     android:textStyle="bold"/>
