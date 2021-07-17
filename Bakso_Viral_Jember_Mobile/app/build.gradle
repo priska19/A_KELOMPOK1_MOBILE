@@ -50,5 +50,8 @@ dependencies {
 
     //button
     implementation 'com.ornach.nobobutton:nobobutton:1.6'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+
 }
 

@@ -18,7 +18,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="alamat">Alamat</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -28,4 +28,31 @@
     <string name="deskripsi">deskripsi</string>
     <string name="rp">rp</string>
     <string name="harga">harga</string>
+    <string name="todo">todo</string>
+    <string name="bakso_viral">Bakso Viral</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="bakso_viral_jember">Bakso Viral Jember</string>
+    <string name="makanan">Makanan</string>
+    <string name="jl_manggis_39_jember">Jl. Manggis 39 - Jember</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string-array name="countries_array">
+        <item>Afganistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>America</item>
+        <item>Andorra</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antingua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+    </string-array>
 </resources>

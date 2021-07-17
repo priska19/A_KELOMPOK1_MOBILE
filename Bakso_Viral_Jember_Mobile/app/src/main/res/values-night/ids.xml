@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txt_judul_data" type="id" />
+    <item name="txt_album_data" type="id" />
+    <item name="txt_artis_data" type="id" />
+</resources>
