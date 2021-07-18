@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     public void ClickDashboard(View view){
         recreate();
     }
-    public void ClickCart(View view) { redirecActivity(this, Keranjang.class);}
+    public void ClickCart(View view) { redirecActivity(this, MainActivityCart.class);}
     public void ClickKatalog(View view) { redirecActivity(this, RecycleView.class);
     }
     public void ClickHistory(View view){

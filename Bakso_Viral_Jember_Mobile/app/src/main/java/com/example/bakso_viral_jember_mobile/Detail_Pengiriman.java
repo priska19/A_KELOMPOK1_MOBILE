@@ -54,7 +54,7 @@ public class Detail_Pengiriman extends Activity {
         acCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Detail_Pengiriman.this, Keranjang.class);
+                Intent i = new Intent(Detail_Pengiriman.this, MainActivityCart.class);
                 startActivity(i);
             }
         });
@@ -66,7 +66,7 @@ public class Detail_Pengiriman extends Activity {
         MainActivity.openDrawer(drawerLayout);
     }
     public void ClickCart(View view) {
-        MainActivity.redirecActivity(this, Keranjang.class);
+        MainActivity.redirecActivity(this, MainActivityCart.class);
     }
     public void ClickLogo(View view){
         MainActivity.closeDrawer(drawerLayout);

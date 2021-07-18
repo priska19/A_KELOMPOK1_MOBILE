@@ -44,25 +44,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                app:labelText="Nama Lengkap"
-                app:primaryColor="@color/biru">
-
-                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/namalengkap"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
-
-            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 app:labelText="Email"
                 app:primaryColor="@color/biru">
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/email"
+                    android:id="@+id/et_emailSignup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
@@ -76,7 +62,7 @@
                 app:primaryColor="@color/biru">
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/edtPassword"
+                    android:id="@+id/et_passwordSignup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword" />
@@ -91,7 +77,7 @@
                 app:primaryColor="@color/biru">
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/konfirmasipassword"
+                    android:id="@+id/et_passwordSignup2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword" />
@@ -102,6 +88,7 @@
             <com.ornach.nobobutton.NoboButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/button_signupup"
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="2dp"
                 android:background="@drawable/button_bg"
@@ -122,7 +109,8 @@
                 android:background="@drawable/button_bg"
                 android:text="Sudah Punya Akun? Login Sekarang"
                 android:textAllCaps="false"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:id="@+id/toLogin"/>
 
         </LinearLayout>
 
