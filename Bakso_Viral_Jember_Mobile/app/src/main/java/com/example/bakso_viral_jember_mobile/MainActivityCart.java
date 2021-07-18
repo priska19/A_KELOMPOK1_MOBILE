@@ -17,8 +17,8 @@ public class MainActivityCart extends AppCompatActivity {
     DrawerLayout drawerLayout;
 
     private RecyclerView recyclerView;
-    private com.example.cart.CartAdapter cartAdapter;
-    private ArrayList<com.example.cart.CartModel> cartArrayList;
+    private CartAdapter cartAdapter;
+    private ArrayList<CartModel> cartArrayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +27,15 @@ public class MainActivityCart extends AppCompatActivity {
 
         addData();
         recyclerView = (RecyclerView) findViewById(R.id.recycler_cart);
-        cartAdapter = new com.example.cart.CartAdapter(cartArrayList);
+        cartAdapter = new CartAdapter(cartArrayList);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivityCart.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(cartAdapter);
     }
     void addData(){
         cartArrayList = new ArrayList<>();
-        cartArrayList.add (new com.example.cart.CartModel("Es cincau", "2", "10.000", "30.000"));
-        cartArrayList.add (new com.example.cart.CartModel("Bakso Pedas", "5", "12.000", "100.000"));
+        cartArrayList.add (new CartModel("Es cincau", "2", "10.000", "30.000"));
+        cartArrayList.add (new CartModel("Bakso Pedas", "5", "12.000", "100.000"));
     }
 
 
