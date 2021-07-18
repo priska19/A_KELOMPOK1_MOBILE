@@ -61,7 +61,7 @@ public class Checkout extends AppCompatActivity {
         MainActivity.openDrawer(drawerLayout);
     }
     public void ClickCart(View view) {
-        MainActivity.redirecActivity(this, Keranjang.class);
+        MainActivity.redirecActivity(this, MainActivityCart.class);
     }
     public void ClickLogo(View view){
         MainActivity.closeDrawer(drawerLayout);
