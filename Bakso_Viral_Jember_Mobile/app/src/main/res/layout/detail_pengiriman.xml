@@ -15,6 +15,7 @@
         android:orientation="vertical">
         <include
             layout="@layout/main_tool"/>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -23,9 +24,6 @@
             android:paddingBottom="16dp"
             android:paddingTop="16dp"
             tools:context=".Detail_Pengiriman">
-
-
-
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -43,10 +41,25 @@
                 <requestFocus/>
             </EditText>
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/etNama"
+                android:layout_marginTop="10dp"
+                android:text="Tanggal Pesan"/>
+            <EditText
+                android:id="@+id/etTgl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textView2"
+                android:layout_below="@id/textView2"
+                android:hint="00-00-0000"
+                android:inputType="date"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etTgl"
                 android:layout_marginTop="10dp"
                 android:text="Nomor Telepon"/>
             <EditText
@@ -55,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@id/textView3"
                 android:layout_below="@id/textView3"
+                android:hint="08"
                 android:inputType="number"/>
             <TextView
                 android:id="@+id/textView4"
