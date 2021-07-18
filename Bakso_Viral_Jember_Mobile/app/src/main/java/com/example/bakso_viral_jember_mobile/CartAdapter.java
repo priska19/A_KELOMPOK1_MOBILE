@@ -8,12 +8,15 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.bakso_viral_jember_mobile.R;
+
 import java.util.ArrayList;
 
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder> {
 
-    private ArrayList<CartModel> datalist;
-    public CartAdapter(ArrayList<CartModel>datalist){
+    private ArrayList<com.example.cart.CartModel> datalist;
+
+    public CartAdapter(ArrayList<com.example.cart.CartModel>datalist){
         this.datalist = datalist;
 
     }
