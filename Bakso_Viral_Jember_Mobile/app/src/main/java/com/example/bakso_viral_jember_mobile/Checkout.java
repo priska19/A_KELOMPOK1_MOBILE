@@ -87,4 +87,8 @@ public class Checkout extends AppCompatActivity {
         super.onPause();
         MainActivity.closeDrawer(drawerLayout);
     }
+    public void ClickKembali(View view) {
+        Intent intent = new Intent(Checkout.this, Detail_Pengiriman.class);
+        startActivity(intent);
+    }
 }
