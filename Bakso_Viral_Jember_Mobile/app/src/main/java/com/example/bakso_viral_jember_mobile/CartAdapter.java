@@ -14,9 +14,9 @@ import java.util.ArrayList;
 
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder> {
 
-    private ArrayList<com.example.cart.CartModel> datalist;
+    private ArrayList<CartModel> datalist;
 
-    public CartAdapter(ArrayList<com.example.cart.CartModel>datalist){
+    public CartAdapter(ArrayList<CartModel>datalist){
         this.datalist = datalist;
 
     }
