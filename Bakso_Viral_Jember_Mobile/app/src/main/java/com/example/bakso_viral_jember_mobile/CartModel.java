@@ -1,4 +1,4 @@
-package com.example.cart;
+package com.example.bakso_viral_jember_mobile;
 
 public class CartModel  {
 
