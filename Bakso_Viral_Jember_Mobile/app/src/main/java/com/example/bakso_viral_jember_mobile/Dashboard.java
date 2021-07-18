@@ -53,4 +53,7 @@ public class Dashboard extends AppCompatActivity {
         super.onPause();
         MainActivity.closeDrawer(drawerLayout);
     }
+
+    public void ClickOther(View view) {
+    }
 }
