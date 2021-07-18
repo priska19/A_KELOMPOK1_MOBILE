@@ -49,7 +49,7 @@
                             android:id="@+id/listTgl"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:textSize="20sp"
+                            android:textSize="18sp"
                             android:textColor="@color/black"
                             android:text="TextView" />
                     </LinearLayout>
@@ -271,12 +271,12 @@
 </ScrollView>
 
     </LinearLayout>
-    <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
-        <include
-            layout="@layout/main_nav_drawer"/>
-    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="@color/white">-->
+<!--        <include-->
+<!--            layout="@layout/main_nav_drawer"/>-->
+<!--    </RelativeLayout>-->
 </androidx.drawerlayout.widget.DrawerLayout>
