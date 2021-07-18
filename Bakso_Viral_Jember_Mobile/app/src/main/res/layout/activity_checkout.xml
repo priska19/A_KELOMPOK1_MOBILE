@@ -264,7 +264,8 @@
                     android:background="@color/white"
                     android:text="Kembali"
                     android:textColor="#ffffFF"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:onClick="ClickKembali"/>
             </LinearLayout>
         </TableLayout>
     </LinearLayout>
@@ -279,4 +280,5 @@
         <include
             layout="@layout/main_nav_drawer"/>
     </RelativeLayout>
+
 </androidx.drawerlayout.widget.DrawerLayout>
