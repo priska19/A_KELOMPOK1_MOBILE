@@ -13,13 +13,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/nav_header_title"
+        android:text="Bakso Viral Jember"
         android:gravity="center_horizontal"
         android:textSize="20sp"
         android:textStyle="bold"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/tv_namaMain"
         android:text="@string/nav_header_subtitle"
         android:gravity="center_horizontal"
         android:textSize="16sp"
