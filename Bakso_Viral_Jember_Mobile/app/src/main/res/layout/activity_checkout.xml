@@ -57,9 +57,10 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="8dp">
 
-                        <TextView
+                    <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:text="Nama Pembeli"
@@ -195,14 +196,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="@string/jenis"
+                            android:text="5"
                             android:textColor="#505050" />
 
                         <TextView
                             android:id="@+id/tv_nama"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/nama_produk"
+                            android:text="Bakso Alus"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
@@ -216,14 +217,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginHorizontal="5dp"
-                                android:text="@string/rp"
+                                android:text="RP."
                                 android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/tv_harga"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/harga"
+                                android:text="10.000"
                                 android:textColor="@color/black" />
                         </LinearLayout>
                     </LinearLayout>
@@ -244,7 +245,7 @@
                     <TextView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
-                        android:text="Total : RP. 00.000"
+                        android:text="Total : RP. 50.000"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
@@ -256,7 +257,6 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
-
                 <Button
                     android:id="@+id/btBack"
                     android:layout_width="match_parent"
@@ -265,20 +265,22 @@
                     android:text="Kembali"
                     android:textColor="#ffffFF"
                     android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
                     android:onClick="ClickKembali"/>
             </LinearLayout>
         </TableLayout>
     </LinearLayout>
 </ScrollView>
 
+
     </LinearLayout>
-    <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
-        <include
-            layout="@layout/main_nav_drawer"/>
-    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="@color/white">-->
+<!--        <include-->
+<!--            layout="@layout/main_nav_drawer"/>-->
+<!--    </RelativeLayout>-->
 
 </androidx.drawerlayout.widget.DrawerLayout>
