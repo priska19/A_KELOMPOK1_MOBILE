@@ -22,6 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Register"/>
+        <activity android:name=".MainActivityCart"/>
+        <activity android:name=".MainActivity"/>
         <activity android:name=".Checkout"></activity>
         <activity android:name=".EditProfile" />
         <activity android:name=".Detail_Pengiriman">
