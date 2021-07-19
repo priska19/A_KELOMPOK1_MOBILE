@@ -12,6 +12,7 @@ import com.example.bakso_viral_jember_mobile.Dashboard;
 import com.example.bakso_viral_jember_mobile.EditProfile;
 import com.example.bakso_viral_jember_mobile.Keranjang;
 import com.example.bakso_viral_jember_mobile.MainActivity;
+import com.example.bakso_viral_jember_mobile.MainActivityCart;
 import com.example.bakso_viral_jember_mobile.R;
 import com.example.bakso_viral_jember_mobile.RiwayatPembelian;
 
@@ -57,7 +58,7 @@ public class RecycleView extends AppCompatActivity {
         MainActivity.openDrawer(drawerLayout);
     }
     public void ClickCart(View view) {
-        MainActivity.redirecActivity(this, Keranjang.class);
+        MainActivity.redirecActivity(this, MainActivityCart.class);
     }
     public void ClickLogo(View view){
         MainActivity.closeDrawer(drawerLayout);
