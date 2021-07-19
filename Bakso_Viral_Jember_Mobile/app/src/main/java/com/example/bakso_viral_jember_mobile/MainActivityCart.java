@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -21,6 +22,8 @@ public class MainActivityCart extends AppCompatActivity {
     private RecyclerView recyclerView;
     private CartAdapter cartAdapter;
     private ArrayList<CartModel> cartArrayList;
+    public static TextView total;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,7 @@ public class MainActivityCart extends AppCompatActivity {
         setContentView(R.layout.activity_cart);
 
         drawerLayout = findViewById(R.id.drawer_layout);
+        total = findViewById(R.id.tv_total);
         addData();
         recyclerView = (RecyclerView) findViewById(R.id.recycler_cart);
         cartAdapter = new CartAdapter(cartArrayList);
