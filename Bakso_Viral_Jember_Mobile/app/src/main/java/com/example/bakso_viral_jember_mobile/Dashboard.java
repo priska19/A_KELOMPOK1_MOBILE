@@ -35,6 +35,11 @@ public class Dashboard extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void ClickChoose(View view) {
+        Intent intent = new Intent(Dashboard.this, MainActivityCart.class);
+        startActivity(intent);
+    }
+
 
     //jangan diotak atik sampe bawah
     public void Clickmenu(View view){

@@ -124,6 +124,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
+            android:onClick="ClickChoose"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -172,6 +173,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
+            android:onClick="ClickChoose"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -230,6 +232,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
+            android:onClick="ClickChoose"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -278,6 +281,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
+            android:onClick="ClickChoose"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -333,12 +337,12 @@
 </LinearLayout>
 
     </LinearLayout>
-    <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
-        <include
-            layout="@layout/main_nav_drawer"/>
-    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="@color/white">-->
+<!--        <include-->
+<!--            layout="@layout/main_nav_drawer"/>-->
+<!--    </RelativeLayout>-->
 </androidx.drawerlayout.widget.DrawerLayout>
