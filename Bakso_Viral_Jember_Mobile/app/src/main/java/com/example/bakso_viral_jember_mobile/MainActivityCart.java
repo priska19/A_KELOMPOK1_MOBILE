@@ -1,7 +1,9 @@
 package com.example.bakso_viral_jember_mobile;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -15,7 +17,7 @@ import java.util.ArrayList;
 public class MainActivityCart extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
-
+    Button btOrder;
     private RecyclerView recyclerView;
     private CartAdapter cartAdapter;
     private ArrayList<CartModel> cartArrayList;
@@ -25,17 +27,27 @@ public class MainActivityCart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
+        drawerLayout = findViewById(R.id.drawer_layout);
         addData();
         recyclerView = (RecyclerView) findViewById(R.id.recycler_cart);
         cartAdapter = new CartAdapter(cartArrayList);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MainActivityCart.this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(cartAdapter);
+        btOrder = findViewById(R.id.btnOrder);
+        btOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityCart.this, Detail_Pengiriman.class);
+                startActivity(i);
+            }
+        });
+
     }
     void addData(){
         cartArrayList = new ArrayList<>();
-        cartArrayList.add (new CartModel("Es cincau", "2", "10.000", "30.000"));
-        cartArrayList.add (new CartModel("Bakso Pedas", "5", "12.000", "100.000"));
+        cartArrayList.add (new CartModel("Es Milo", "2", "10.000", "20.000"));
+        cartArrayList.add (new CartModel("Bakso Alus", "5", "12.000", "100.000"));
     }
 
 
@@ -70,8 +82,5 @@ public class MainActivityCart extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         MainActivity.closeDrawer(drawerLayout);
-    }
-
-    public void ClickOther(View view) {
     }
 }
