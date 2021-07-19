@@ -21,9 +21,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_namaMain"
-        android:text="@string/nav_header_subtitle"
+        android:text="Jl. Manggis no 39, Jemberlor, Patrang, Jember"
         android:gravity="center_horizontal"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"/>
     <View
         android:layout_width="match_parent"
