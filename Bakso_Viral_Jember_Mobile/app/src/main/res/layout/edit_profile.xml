@@ -141,12 +141,10 @@
     <Button
         android:id="@+id/button1"
         style="?android:borderlessButtonStyle"
-        android:layout_width="180dp"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="364dp"
-        android:layout_marginBottom="61dp"
         android:drawableLeft="@drawable/icon_done"
         android:text="Save Profile"
         android:textColor="@color/black" />
@@ -154,14 +152,9 @@
     <Button
         android:id="@+id/button2"
         style="?android:borderlessButtonStyle"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
-        android:layout_alignEnd="@+id/editText5"
-        android:layout_alignRight="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="357dp"
-        android:layout_marginRight="357dp"
-        android:layout_marginBottom="61dp"
         android:drawableLeft="@drawable/icon_arrow_back"
         android:text="@string/cancel"
         android:textColor="@color/black" />
@@ -169,12 +162,12 @@
 </RelativeLayout>
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
-        <include
-            layout="@layout/main_nav_drawer"/>
-    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="@color/white">-->
+<!--        <include-->
+<!--            layout="@layout/main_nav_drawer"/>-->
+<!--    </RelativeLayout>-->
 </androidx.drawerlayout.widget.DrawerLayout>
