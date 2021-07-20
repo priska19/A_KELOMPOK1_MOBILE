@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.bakso_viral_jember_mobile.listview.RecycleView;
 
@@ -20,26 +21,12 @@ public class Dashboard extends AppCompatActivity {
         //getSupportActionBar().hide();
         drawerLayout = findViewById(R.id.drawer_layout);
 
-    }
-//    public void ClickOther(View view){
-//        redirecActivity(this, RecycleView.class);
-//    }
-//
-//    public static void redirecActivity(Activity activity, Class aClass) {
-//        Intent intent = new Intent(activity,aClass);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        activity.startActivity(intent);
-//    }
-    public void ClickOther(View view) {
-        Intent intent = new Intent(Dashboard.this, RecycleView.class);
-        startActivity(intent);
-    }
+        /* Deklarasi dan Menginisialisasi variable nama dengan Label Nama dari Layout MainActivity */
+        TextView nama = findViewById(R.id.tv_namaMain);
 
-    public void ClickChoose(View view) {
-        Intent intent = new Intent(Dashboard.this, MainActivityCart.class);
-        startActivity(intent);
+        /* Men-set Label Nama dengan data User sedang login dari Preferences */
+        nama.setText(preferences.getLoggedInUser(getBaseContext()));
     }
-
 
     //jangan diotak atik sampe bawah
     public void Clickmenu(View view){

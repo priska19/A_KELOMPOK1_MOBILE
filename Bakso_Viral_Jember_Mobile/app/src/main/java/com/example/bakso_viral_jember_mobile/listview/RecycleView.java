@@ -131,11 +131,7 @@ public class RecycleView extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
-    public void ClickChoose(View view) {
-        Intent intent = new Intent(RecycleView.this, MainActivityCart.class);
-        startActivity(intent);
-    }
+    
     //jangan diotak atik sampe bawah
     public void Clickmenu(View view){
 

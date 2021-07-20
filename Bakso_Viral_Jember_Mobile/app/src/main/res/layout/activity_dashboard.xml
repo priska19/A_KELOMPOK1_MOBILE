@@ -48,20 +48,20 @@
 
                 <TextView
                     android:layout_marginLeft="5dp"
-                    android:layout_width="140dp"
-                    android:layout_height="wrap_content"
-                    android:text="Bakso Viral Jember"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:textSize="16dp" />
-
-                <TextView
-                    android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Selamat Datang"
                     android:textStyle="bold"
                     android:textColor="@color/white"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_namaMain"
+                    android:text="@string/bakso_viral_jember"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
 
             </LinearLayout>
 
@@ -102,7 +102,7 @@
             android:textStyle="bold"
             android:layout_marginStart="95dp"
             android:layout_marginLeft="68dp"
-            android:onClick="ClickOther"/>
+            android:onClick="ClickKatalog"/>
     </LinearLayout>
 
 
@@ -124,7 +124,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            android:onClick="ClickChoose"
+            android:onClick="ClickCart"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -173,7 +173,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            android:onClick="ClickChoose"
+            android:onClick="ClickCart"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -232,7 +232,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            android:onClick="ClickChoose"
+            android:onClick="ClickCart"
             app:cardElevation="3dp">
 
             <RelativeLayout
@@ -281,7 +281,7 @@
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardCornerRadius="3dp"
-            android:onClick="ClickChoose"
+            android:onClick="ClickCart"
             app:cardElevation="3dp">
 
             <RelativeLayout
