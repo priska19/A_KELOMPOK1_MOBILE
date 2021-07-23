@@ -101,7 +101,7 @@
                 android:inputType="text"/>
 
             <Button
-                android:id="@+id/btBack"
+                android:id="@+id/btCancel"
                 android:layout_width="159dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"

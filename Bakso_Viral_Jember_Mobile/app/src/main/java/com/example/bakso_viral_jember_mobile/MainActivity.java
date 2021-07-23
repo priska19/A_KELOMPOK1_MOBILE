@@ -53,9 +53,6 @@ public class MainActivity extends AppCompatActivity {
     public void ClickHistory(View view){
         redirecActivity(this, RiwayatPembelian.class);
     }
-    public void ClickEditprofil(View view){
-        redirecActivity(this,EditProfile.class);
-    }
     public void ClickLogout(View view){
         logout(this);
     }
