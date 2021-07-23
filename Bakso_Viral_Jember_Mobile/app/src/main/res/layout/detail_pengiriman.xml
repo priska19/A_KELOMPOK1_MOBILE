@@ -105,7 +105,6 @@
                 android:layout_width="159dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:background="@color/white"
                 android:onClick="ClickKembali"
                 android:text="Kembali"
                 android:textColor="#ffffFF"
@@ -117,19 +116,18 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
-                android:background="@color/white"
                 android:text="Pesan"
                 android:textColor="#ffffFF"
                 android:textStyle="bold" />
         </RelativeLayout>
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/white">
-        <include
-            layout="@layout/main_nav_drawer"/>
-    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="@color/white">-->
+<!--        <include-->
+<!--            layout="@layout/main_nav_drawer"/>-->
+<!--    </RelativeLayout>-->
 </androidx.drawerlayout.widget.DrawerLayout>
