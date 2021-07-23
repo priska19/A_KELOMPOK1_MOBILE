@@ -33,7 +33,7 @@ import java.util.ArrayList;
 public class RecycleView extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
-    private String URLstring = "http://192.168.43.227:80/api/api_product"; //pake alamat ip
+    private String URLstring = "https://wsjti.id/Baksoviral/public/api/api_product"; //pake alamat ip
     private static ProgressDialog mProgressDialog;
     private ListView listView;
     ArrayList<Data> dataModelArrayList;
