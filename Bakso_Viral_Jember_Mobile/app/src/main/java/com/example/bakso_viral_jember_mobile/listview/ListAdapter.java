@@ -43,6 +43,7 @@ public class ListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
+        Data dm = dataModelArrayList.get(position);
         if (convertView == null) {
             holder = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -56,7 +57,13 @@ public class ListAdapter extends BaseAdapter {
 // the getTag returns the viewHolder object set as a            tag to the view
             holder = (ViewHolder)convertView.getTag();
         }
-        Picasso.get().load(dataModelArrayList.get(position).getImgURL()).into(holder.iv);
+
+        String imgPosition = "http://192.168.43.227:80/products/"+dm.getImgURL();
+        Picasso.get()
+                .load(imgPosition)
+                .placeholder(R.drawable.logo)
+                .error(R.drawable.logo)
+                .into(holder.iv);
         holder.tJenis.setText(dataModelArrayList.get(position).getJenis());
         holder.tProduk.setText(dataModelArrayList.get(position).getNama_produk());
         holder.tHarga.setText(dataModelArrayList.get(position).getHarga());

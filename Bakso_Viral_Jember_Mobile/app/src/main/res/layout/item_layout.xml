@@ -34,7 +34,6 @@
                     android:weightSum="5"
                     android:gravity="center"
                     >
-
                     <TextView
                         android:id="@+id/nama"
                         android:layout_width="match_parent"
@@ -55,7 +54,7 @@
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textSize="13dp"
 
-                        />
+                        android:gravity="center_horizontal" />
 
                     <TextView
                         android:id="@+id/harga"
@@ -66,7 +65,7 @@
                         android:textAlignment="center"
                         android:layout_weight="1"
                         android:textSize="13dp"
-                        />
+                        android:gravity="center_horizontal" />
 
                     <TextView
                         android:id="@+id/total"

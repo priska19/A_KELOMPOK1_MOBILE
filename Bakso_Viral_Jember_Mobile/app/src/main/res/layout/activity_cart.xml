@@ -63,9 +63,7 @@
         android:textColor="@android:color/white">
 
     </Button>
-
-</RelativeLayout>
-
+   </RelativeLayout>
 
     </LinearLayout>
     <RelativeLayout
@@ -76,6 +74,5 @@
         <include
             layout="@layout/main_nav_drawer"/>
     </RelativeLayout>
-
 
 </androidx.drawerlayout.widget.DrawerLayout>
