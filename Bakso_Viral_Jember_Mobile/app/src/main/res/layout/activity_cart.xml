@@ -63,6 +63,11 @@
         android:textColor="@android:color/white">
 
     </Button>
+
+</RelativeLayout>
+
+
+    </LinearLayout>
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"
@@ -72,9 +77,5 @@
             layout="@layout/main_nav_drawer"/>
     </RelativeLayout>
 
-</RelativeLayout>
-
-
-    </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
