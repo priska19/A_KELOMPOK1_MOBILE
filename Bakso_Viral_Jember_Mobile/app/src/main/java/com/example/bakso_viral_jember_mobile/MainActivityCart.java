@@ -50,8 +50,7 @@ public class MainActivityCart extends AppCompatActivity {
     }
     void addData(){
         cartArrayList = new ArrayList<>();
-        cartArrayList.add (new CartModel("Es Milo", "2", "10.000", "20.000"));
-        cartArrayList.add (new CartModel("Bakso Alus", "5", "12.000", "100.000"));
+        cartArrayList.add (new CartModel("Bakso Alus", "1", "12.000", "12.000"));
     }
 
 
