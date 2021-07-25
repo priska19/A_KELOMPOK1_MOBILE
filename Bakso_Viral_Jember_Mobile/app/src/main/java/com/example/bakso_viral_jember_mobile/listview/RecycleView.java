@@ -2,7 +2,6 @@ package com.example.bakso_viral_jember_mobile.listview;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -11,8 +10,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -21,8 +18,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.bakso_viral_jember_mobile.Dashboard;
-import com.example.bakso_viral_jember_mobile.EditProfile;
-import com.example.bakso_viral_jember_mobile.Keranjang;
 import com.example.bakso_viral_jember_mobile.MainActivity;
 import com.example.bakso_viral_jember_mobile.MainActivityCart;
 import com.example.bakso_viral_jember_mobile.R;
@@ -38,7 +33,7 @@ import java.util.ArrayList;
 public class RecycleView extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
-    private String URLstring = "http://192.168.43.227:80/api/api_product"; //pake alamat ip
+    private String URLstring = "https://wsjti.id/Baksoviral/public/api/api_product"; //pake alamat ip
     private static ProgressDialog mProgressDialog;
     private ListView listView;
     ArrayList<Data> dataModelArrayList;
@@ -151,9 +146,6 @@ public class RecycleView extends AppCompatActivity {
     }
     public void ClickHistory(View view){
         MainActivity.redirecActivity(this, RiwayatPembelian.class);
-    }
-    public void ClickEditprofil(View view){
-        MainActivity.redirecActivity(this, EditProfile.class);
     }
     public void ClickLogout(View view){
         MainActivity.logout(this);

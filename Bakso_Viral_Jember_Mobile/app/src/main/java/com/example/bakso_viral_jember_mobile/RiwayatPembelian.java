@@ -107,9 +107,6 @@ public class RiwayatPembelian extends AppCompatActivity {
     public void ClickHistory(View view){
         recreate();
     }
-    public void ClickEditprofil(View view){
-        MainActivity.redirecActivity(this, EditProfile.class);
-    }
     public void ClickLogout(View view){
         MainActivity.logout(this);
     }

@@ -10,11 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakso_Viral_Jember_Mobile.NoActionBar">
-        <activity android:name=".TambahBiodata">
-        </activity>
         <activity android:name=".Dashboard">
         </activity>
-        <activity android:name=".Keranjang" />
         <activity android:name=".listview.RecycleView"></activity>
         <activity android:name=".user.LoginActivity">
             <intent-filter>
@@ -27,7 +24,6 @@
         <activity android:name=".MainActivityCart"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".Checkout"></activity>
-        <activity android:name=".EditProfile" />
         <activity android:name=".Detail_Pengiriman">
         </activity>
         <activity android:name=".RiwayatPembelian" />

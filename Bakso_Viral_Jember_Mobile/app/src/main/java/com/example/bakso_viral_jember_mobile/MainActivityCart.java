@@ -74,9 +74,6 @@ public class MainActivityCart extends AppCompatActivity {
     public void ClickHistory(View view){
         MainActivity.redirecActivity(this, RiwayatPembelian.class);
     }
-    public void ClickEditprofil(View view){
-        MainActivity.redirecActivity(this, EditProfile.class);
-    }
     public void ClickLogout(View view){
         MainActivity.logout(this);
     }
