@@ -58,7 +58,7 @@ public class ListAdapter extends BaseAdapter {
             holder = (ViewHolder)convertView.getTag();
         }
 
-        String imgPosition = "https://wsjti.id/Baksoviral/public/api/api_product/products/"+dm.getImgURL();
+        String imgPosition = "https://wsjti.id/Baksoviral/public/storage/products/"+dm.getImgURL();
         Picasso.get()
                 .load(imgPosition)
                 .placeholder(R.drawable.logo)

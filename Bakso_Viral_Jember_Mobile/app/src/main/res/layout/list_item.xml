@@ -10,11 +10,12 @@
         android:id="@+id/img_produk"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_margin="12dp"
         android:src="@drawable/logo"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="162dp"
         android:orientation="vertical">
 
         <TextView
