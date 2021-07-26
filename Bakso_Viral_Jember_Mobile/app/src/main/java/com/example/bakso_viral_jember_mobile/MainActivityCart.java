@@ -1,4 +1,4 @@
-package com.example.bakso_viral_jember_mobile;
+    package com.example.bakso_viral_jember_mobile;
 
 import android.content.Intent;
 import android.os.Bundle;
